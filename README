@@ -1,0 +1,10 @@
+Simulação de um "Air Shower" utilizando Geant4.
+
+-> Foi utilizado como ponto de partida o Exemplo B1. A 'physics list' escolhida foi FTFP-BERT.
+
+-> Geometria: trata-se de um cilindro de Ar com várias camadas de densidade variável com a altura. Modelo do Corsika.
+
+-> Verbose para physics list (no cosmic_rays.cc), event e tracking(ambos no init_vis.mac) foram adicionadas.
+
+
+-> Adicionado ao fim do cilindo um Sensitive detector com o intuito de identificar partículas na superfície terrestre. Sua implementação está em B1SD e B1Hits.
